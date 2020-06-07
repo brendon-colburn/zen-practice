@@ -20,13 +20,13 @@ steps:
 - task: PowerAppsToolInstaller@0
   inputs:
     DefaultVersion: true
+
 - task: PowerAppsExportSolution@0
   inputs:
-    authenticationType: 'PowerAppsSPN'
-    PowerAppsSPN: 'BAC-DEV2'
+    authenticationType: 'PowerAppsEnvironment'
+    PowerAppsEnvironment: 'BAC-DEV2'
     SolutionName: '$(SolutionName)'
     SolutionOutputFile: '$(Build.ArtifactStagingDirectory)\$(SolutionName).zip'
-    ExportGeneralSettings: true
 - task: PowerAppsUnpackSolution@0
   inputs:
     SolutionInputFile: '$(Build.ArtifactStagingDirectory)\\$(SolutionName).zip'
