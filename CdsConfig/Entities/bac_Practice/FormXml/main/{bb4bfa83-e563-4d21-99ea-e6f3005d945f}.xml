@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{bb4bfa83-e563-4d21-99ea-e6f3005d945f}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{4a16df19-0df0-42df-bc2c-b8fd03f2825b}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{0f4d5e54-981d-48d8-bf78-94782b0c9e00}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{75703aa1-d4e0-4735-baf5-971ba39328f9}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="bac_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="bac_name" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{bd359909-09b3-4d3e-8ded-47ac41ffba4d}" visible="false">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{618d7b2b-89cf-415b-a42e-09f8ea1dd215}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Duration" languagecode="1033" />
+                        </labels>
+                        <control id="bac_duration" classid="{AA987274-CE4E-4271-A803-66164311A958}" datafieldname="bac_duration" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{385b83a9-ed6f-4da6-ac31-967ae0b2884e}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Frequency" languagecode="1033" />
+                        </labels>
+                        <control id="bac_frequency" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="bac_frequency" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{31d4d158-d896-45b0-8245-8b27b2d261a3}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Practice Type" languagecode="1033" />
+                        </labels>
+                        <control id="bac_practicetype" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="bac_practicetype" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{28b01f80-b75f-438f-8fe3-4c39a017c1ed}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Rating" languagecode="1033" />
+                        </labels>
+                        <control id="bac_rating" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="bac_rating" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell showlabel="false" locklevel="0" id="{f7017d3a-96eb-4884-b51c-e25c6f16d041}" rowspan="1" colspan="1">
+                        <labels>
+                          <label description="New SG control 1590171009415" languagecode="1033" />
+                        </labels>
+                        <control id="Subgrid_1" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <TargetEntityType>bac_practicearea</TargetEntityType>
+                            <ViewId>{96670AAD-B7E6-4F99-92BB-B42DDBCED8E1}</ViewId>
+                            <ViewIds>{96670AAD-B7E6-4F99-92BB-B42DDBCED8E1}</ViewIds>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <RelationshipName>bac_PracticeArea_bac_Practice_bac_Practic</RelationshipName>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9f042891-a7ce-4108-b8ab-55cc6566e9d7}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Canvas Placeholder" languagecode="1033" />
+                        </labels>
+                        <control id="bac_canvasplaceholder" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="bac_canvasplaceholder" disabled="false" uniqueid="{1e4c5c69-6577-95c2-cb03-ce0beba42dee}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{dba7d20a-3f2f-4866-9c07-9f14580e2047}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{bdc1854f-de2e-43ed-b53b-89b944fee6a1}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{a70f5864-dc3f-4ca6-8d6d-d2625bd21746}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{26ddc0db-16c5-4297-a265-9575514c1fdf}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{2004dd5e-6dc9-4fbc-8513-09040dcfdffd}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{7364a05c-c895-4c19-b801-cc86a86cc055}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{d3bb7e05-eeed-42d9-8684-632428228d3d}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{4302a957-f08d-4061-ac60-37b831f3dda8}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar />
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions>
+        <controlDescription forControl="{1e4c5c69-6577-95c2-cb03-ce0beba42dee}">
+          <customControl id="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}">
+            <parameters>
+              <datafieldname>bac_canvasplaceholder</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.Canvas.CanvasControl">
+            <parameters>
+              <record>bac_canvasplaceholder</record>
+              <schema static="true" type="SingleLine.Text">{}</schema>
+              <entityName static="true" type="SingleLine.Text">Practice</entityName>
+              <appName static="true" type="SingleLine.Text">bac_productlistonmdaform_70f97</appName>
+              <appId static="true" type="SingleLine.Text">d68294a8-6ca5-4f77-b438-cb74fb860470</appId>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.Canvas.CanvasControl">
+            <parameters>
+              <record>bac_canvasplaceholder</record>
+              <schema static="true" type="SingleLine.Text">{}</schema>
+              <entityName static="true" type="SingleLine.Text">Practice</entityName>
+              <appName static="true" type="SingleLine.Text">bac_productlistonmdaform_70f97</appName>
+              <appId static="true" type="SingleLine.Text">d68294a8-6ca5-4f77-b438-cb74fb860470</appId>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.Canvas.CanvasControl">
+            <parameters>
+              <record>bac_canvasplaceholder</record>
+              <schema static="true" type="SingleLine.Text">{}</schema>
+              <entityName static="true" type="SingleLine.Text">Practice</entityName>
+              <appName static="true" type="SingleLine.Text">bac_productlistonmdaform_70f97</appName>
+              <appId static="true" type="SingleLine.Text">d68294a8-6ca5-4f77-b438-cb74fb860470</appId>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
+      <DisplayConditions Order="0" FallbackForm="true" />
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

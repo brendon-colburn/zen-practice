@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{7f7469ba-726d-48d5-80d3-bb68bc742643}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{76c3fcc0-7948-445a-9979-d5d4e00d09cd}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{504e32b1-6bc6-459a-aeff-2c29b614e81c}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{66dde203-d064-4be8-90dc-3b31f71ac075}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="bac_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="bac_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{420bd9e1-0d18-468e-bc0d-a2439407165d}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{124946c5-ce14-42b5-bdf9-d63ecca73430}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Focus" languagecode="1033" />
+                        </labels>
+                        <control id="bac_focus" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="bac_focus" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{52b09e1c-8fd8-4295-91e2-0aca7ebdf535}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Value" languagecode="1033" />
+                        </labels>
+                        <control id="bac_value" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="bac_value" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f08be2b5-59ad-4d34-a047-73bbb8a62f92}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Practice" languagecode="1033" />
+                        </labels>
+                        <control id="bac_practice" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="bac_practice" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{5350abc9-c334-4016-b282-741d0a6abee4}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{744c8564-3ea3-47f4-85e9-580e3c4448b5}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{33cfd47d-cbc4-454c-bc83-79bee1e5bfe1}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{79fad2bc-e6e1-494c-813d-dc17234612dd}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{c1c2c83f-d276-467f-88ae-7bf88feeee3b}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{b718f62b-aafc-4206-89b0-6bcce5013f36}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{97e50ac1-5f69-44dd-af9d-87b0ae578d46}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{8e41968f-3f5a-4b5f-a53a-a8e34445abf0}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true" />
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

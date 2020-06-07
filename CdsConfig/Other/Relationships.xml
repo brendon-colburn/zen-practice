@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EntityRelationship Name="bac_FocusItem_bac_PracticeType_bac_Practi" />
+  <EntityRelationship Name="bac_Practice_bac_FocusItem_bac_FocusItem" />
+  <EntityRelationship Name="bac_Practice_bac_PracticeType_bac_Practic" />
+  <EntityRelationship Name="bac_PracticeArea_bac_Practice_bac_Practic" />
+  <EntityRelationship Name="bac_PracticeArea_Focus_bac_FocusItem" />
+  <EntityRelationship Name="business_unit_bac_pomodoro" />
+  <EntityRelationship Name="business_unit_bac_practice" />
+  <EntityRelationship Name="business_unit_bac_practicearea" />
+  <EntityRelationship Name="lk_bac_focusitem_createdby" />
+  <EntityRelationship Name="lk_bac_focusitem_modifiedby" />
+  <EntityRelationship Name="lk_bac_pomodoro_createdby" />
+  <EntityRelationship Name="lk_bac_pomodoro_modifiedby" />
+  <EntityRelationship Name="lk_bac_practice_createdby" />
+  <EntityRelationship Name="lk_bac_practice_modifiedby" />
+  <EntityRelationship Name="lk_bac_practicearea_createdby" />
+  <EntityRelationship Name="lk_bac_practicearea_modifiedby" />
+  <EntityRelationship Name="lk_bac_practicetype_createdby" />
+  <EntityRelationship Name="lk_bac_practicetype_modifiedby" />
+  <EntityRelationship Name="organization_bac_focusitem" />
+  <EntityRelationship Name="organization_bac_practicetype" />
+  <EntityRelationship Name="owner_bac_pomodoro" />
+  <EntityRelationship Name="owner_bac_practice" />
+  <EntityRelationship Name="owner_bac_practicearea" />
+  <EntityRelationship Name="team_bac_pomodoro" />
+  <EntityRelationship Name="team_bac_practice" />
+  <EntityRelationship Name="team_bac_practicearea" />
+  <EntityRelationship Name="user_bac_pomodoro" />
+  <EntityRelationship Name="user_bac_practice" />
+  <EntityRelationship Name="user_bac_practicearea" />
+</EntityRelationships>
