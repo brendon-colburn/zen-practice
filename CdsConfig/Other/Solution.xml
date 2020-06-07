@@ -6,7 +6,7 @@
       <LocalizedName description="Practice" languagecode="1033" />
     </LocalizedNames>
     <Descriptions />
-    <Version>1.0.0.1</Version>
+    <Version>1.0.0.3</Version>
     <Managed>0</Managed>
     <Publisher>
       <UniqueName>Brendon</UniqueName>
@@ -94,12 +94,8 @@
     </RootComponents>
     <MissingDependencies>
       <MissingDependency>
-        <Required key="0" type="70" displayName="my new profile" solution="Active" id="{8b4b4b90-bfa5-ea11-a812-000d3a5c0e1c}" />
-        <Dependent key="0" type="70" displayName="my new profile" id="{8b4b4b90-bfa5-ea11-a812-000d3a5c0e1c}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="1" type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)" />
-        <Dependent key="2" type="80" schemaName="bac_PracticeDesktopApp" displayName="Practice Desktop App" />
+        <Required key="0" type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)" />
+        <Dependent key="1" type="80" schemaName="bac_PracticeDesktopApp" displayName="Practice Desktop App" />
       </MissingDependency>
     </MissingDependencies>
   </SolutionManifest>
