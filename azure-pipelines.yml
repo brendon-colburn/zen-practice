@@ -10,13 +10,6 @@ pool:
   vmImage: 'windows-latest'
 
 steps:
-- script: echo Hello, world!
-  displayName: 'Run a one-line script'
-
-- script: |
-    echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
-  displayName: 'Run a multi-line script'
 - task: PowerAppsToolInstaller@0
   inputs:
     DefaultVersion: true
@@ -31,11 +24,6 @@ steps:
   inputs:
     SolutionInputFile: '$(Build.ArtifactStagingDirectory)\\$(SolutionName).zip'
     SolutionTargetFolder: 'CdsConfig'
-- task: PublishPipelineArtifact@1
-  inputs:
-    targetPath: '$(Pipeline.Workspace)'
-    artifact: 'buildToPipeline'
-    publishLocation: 'pipeline'
 
 - task: CmdLine@2
   inputs:
