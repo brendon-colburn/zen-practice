@@ -23,7 +23,7 @@ steps:
 - task: PowerAppsExportSolution@0
   inputs:
     authenticationType: 'PowerAppsSPN'
-    PowerAppsSPN: 'BAC-DEV'
+    PowerAppsSPN: 'BAC-DEV2'
     SolutionName: '$(SolutionName)'
     SolutionOutputFile: '$(Build.ArtifactStagingDirectory)\$(SolutionName).zip'
     ExportGeneralSettings: true
