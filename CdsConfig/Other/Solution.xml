@@ -90,21 +90,16 @@
       <RootComponent type="60" id="{bb4bfa83-e563-4d21-99ea-e6f3005d945f}" behavior="0" />
       <RootComponent type="62" schemaName="bac_PracticeDesktopApp" behavior="0" />
       <RootComponent type="80" schemaName="bac_PracticeDesktopApp" behavior="0" />
-      <RootComponent type="300" schemaName="bac_productlistonmdaform_70f97" behavior="0" />
       <RootComponent type="300" schemaName="bac_zenmobilepracticeapp_45651" behavior="0" />
     </RootComponents>
     <MissingDependencies>
       <MissingDependency>
-        <Required key="0" type="66" schemaName="MscrmControls.Canvas.CanvasControl" displayName="MscrmControls.Canvas.CanvasControl" solution="BaseCustomControlsCore (9.0.2005.1014)" />
-        <Dependent key="1" type="60" displayName="Information" parentDisplayName="Practice" id="{bb4bfa83-e563-4d21-99ea-e6f3005d945f}" />
+        <Required key="0" type="70" displayName="my new profile" solution="Active" id="{8b4b4b90-bfa5-ea11-a812-000d3a5c0e1c}" />
+        <Dependent key="0" type="70" displayName="my new profile" id="{8b4b4b90-bfa5-ea11-a812-000d3a5c0e1c}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="2" type="70" displayName="my new profile" solution="Active" id="{8b4b4b90-bfa5-ea11-a812-000d3a5c0e1c}" />
-        <Dependent key="2" type="70" displayName="my new profile" id="{8b4b4b90-bfa5-ea11-a812-000d3a5c0e1c}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="3" type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)" />
-        <Dependent key="4" type="80" schemaName="bac_PracticeDesktopApp" displayName="Practice Desktop App" />
+        <Required key="1" type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)" />
+        <Dependent key="2" type="80" schemaName="bac_PracticeDesktopApp" displayName="Practice Desktop App" />
       </MissingDependency>
     </MissingDependencies>
   </SolutionManifest>

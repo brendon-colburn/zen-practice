@@ -83,14 +83,6 @@
                         </control>
                       </cell>
                     </row>
-                    <row>
-                      <cell id="{9f042891-a7ce-4108-b8ab-55cc6566e9d7}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Canvas Placeholder" languagecode="1033" />
-                        </labels>
-                        <control id="bac_canvasplaceholder" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="bac_canvasplaceholder" disabled="false" uniqueid="{1e4c5c69-6577-95c2-cb03-ce0beba42dee}" />
-                      </cell>
-                    </row>
                   </rows>
                 </section>
               </sections>
@@ -170,42 +162,7 @@
           </NavBarArea>
         </NavBarAreas>
       </Navigation>
-      <controlDescriptions>
-        <controlDescription forControl="{1e4c5c69-6577-95c2-cb03-ce0beba42dee}">
-          <customControl id="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}">
-            <parameters>
-              <datafieldname>bac_canvasplaceholder</datafieldname>
-            </parameters>
-          </customControl>
-          <customControl formFactor="0" name="MscrmControls.Canvas.CanvasControl">
-            <parameters>
-              <record>bac_canvasplaceholder</record>
-              <schema static="true" type="SingleLine.Text">{}</schema>
-              <entityName static="true" type="SingleLine.Text">Practice</entityName>
-              <appName static="true" type="SingleLine.Text">bac_productlistonmdaform_70f97</appName>
-              <appId static="true" type="SingleLine.Text">d68294a8-6ca5-4f77-b438-cb74fb860470</appId>
-            </parameters>
-          </customControl>
-          <customControl formFactor="1" name="MscrmControls.Canvas.CanvasControl">
-            <parameters>
-              <record>bac_canvasplaceholder</record>
-              <schema static="true" type="SingleLine.Text">{}</schema>
-              <entityName static="true" type="SingleLine.Text">Practice</entityName>
-              <appName static="true" type="SingleLine.Text">bac_productlistonmdaform_70f97</appName>
-              <appId static="true" type="SingleLine.Text">d68294a8-6ca5-4f77-b438-cb74fb860470</appId>
-            </parameters>
-          </customControl>
-          <customControl formFactor="2" name="MscrmControls.Canvas.CanvasControl">
-            <parameters>
-              <record>bac_canvasplaceholder</record>
-              <schema static="true" type="SingleLine.Text">{}</schema>
-              <entityName static="true" type="SingleLine.Text">Practice</entityName>
-              <appName static="true" type="SingleLine.Text">bac_productlistonmdaform_70f97</appName>
-              <appId static="true" type="SingleLine.Text">d68294a8-6ca5-4f77-b438-cb74fb860470</appId>
-            </parameters>
-          </customControl>
-        </controlDescription>
-      </controlDescriptions>
+      <controlDescriptions />
       <DisplayConditions Order="0" FallbackForm="true" />
     </form>
     <IsCustomizable>1</IsCustomizable>
