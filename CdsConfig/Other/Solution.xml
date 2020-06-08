@@ -89,6 +89,7 @@
       <RootComponent type="29" id="{4caf010c-d4a8-ea11-a812-000d3a5c0e1c}" behavior="0" />
       <RootComponent type="60" id="{bb4bfa83-e563-4d21-99ea-e6f3005d945f}" behavior="0" />
       <RootComponent type="62" schemaName="bac_PracticeDesktopApp" behavior="0" />
+      <RootComponent type="66" schemaName="bac_BAC.GooeyControl" behavior="0" />
       <RootComponent type="80" schemaName="bac_PracticeDesktopApp" behavior="0" />
       <RootComponent type="300" schemaName="bac_zenmobilepracticeapp_45651" behavior="0" />
     </RootComponents>
