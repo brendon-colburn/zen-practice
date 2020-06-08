@@ -1,0 +1,34 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+- none
+
+pool:
+  vmImage: 'windows-latest'
+
+steps:
+- task: PowerAppsToolInstaller@0
+  inputs:
+    DefaultVersion: true
+
+- task: PowerAppsResetEnvironment@0
+  inputs:
+    authenticationType: 'PowerAppsEnvironment'
+    PowerAppsEnvironment: 'ALMTEST'
+    TargetRelease: 'Dynamics 365, version 9.0'
+    BaseLanguage: '1033'
+
+- task: PowerAppsPackSolution@0
+  inputs:
+    SolutionSourceFolder: './CdsConfig'
+    SolutionOutputFile: 'master.zip'
+- task: PowerAppsImportSolution@0
+  inputs:
+    authenticationType: 'PowerAppsEnvironment'
+    PowerAppsEnvironment: 'ALMTEST'
+    SolutionInputFile: 'master.zip'
+    AsyncOperation: true
+    MaxAsyncWaitTime: '240'
