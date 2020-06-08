@@ -1,0 +1,13 @@
+{
+    "extends": "./node_modules/pcf-scripts/tsconfig_base.json",
+    "compilerOptions": {
+        "declaration": true,
+    "esModuleInterop": true,
+    "jsx": "react",
+    "moduleResolution": "Node",
+    "outDir": "./dist-types",
+    "strict": true,
+    "target": "ESNext",
+        "typeRoots": ["node_modules/@types"],
+    }
+}
